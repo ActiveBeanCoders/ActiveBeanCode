@@ -198,9 +198,10 @@ h2 { font-size: 2.5em; margin: 0 0 20px; letter-spacing: -0.05em; color: #555; l
 h3 { font-size: 1.75em; }
 h4 { font-size: 1.5em; }
 h5 { font-size: 1.17em; text-transform: uppercase; margin: 0; color: #555; }
-h6 { font-size: 1em; margin-bottom: 2px; font-weight: 700; }
+h6 { font-size: 1.17em; margin: 0; color: #555; }
+h7 { font-size: 1em; margin-bottom: 2px; font-weight: 700; }
 
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#333; text-decoration: none;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h7 a{color:#333; text-decoration: none;}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{color:#0078CF;text-decoration: underline;}
 
 
@@ -274,15 +275,13 @@ a img:hover {
 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 70);
 	filter: alpha(opacity = 70);}
     
-    
-    
 /* -------------------------------------------------------------
 ======	PAGES
 ------------------------------------------------------------- */
     
 /* -- HEADER
 ------------------------------------------------------------- */
-header#navtop { margin-bottom: 2em; clear: both; overflow: hidden; }
+header#navtop { margin-bottom: .5em; clear: both; overflow: hidden; }
     header nav ul { float: left; overflow: hidden; padding: 0 3em 0 2em; border-left: 1px solid #ddd; line-height: 2em; }
 nav a, menu a { text-decoration: none; color: #555; }
 .navactive { color: #0078CF }
@@ -336,6 +335,10 @@ html[xmlns] .slides {display: block;}
 	top: 9em; right: 0; }
 .slide figcaption div { text-align: right; display: block; border-right: 1px solid #DDD; padding: 0 2em 0 0; margin: auto 5em auto 0; }
 .slide figcaption div p { margin: 0 }
+.slidedate {font-style:italic;}
+  
+  
+
 .flex-direction-nav{ position: absolute; top: 10em; right: 1.5em; z-index: 10;}
 .flex-direction-nav li {display: inline;}
 .flex-prev, .flex-next{ text-decoration: none; color: #999;	margin-left: 1em;}
