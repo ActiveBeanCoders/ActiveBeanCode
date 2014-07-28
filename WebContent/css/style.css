@@ -1,15 +1,15 @@
 /* -------------------------------------------------------------
-- Site Name: DESIGNA Studio
-- Version: 2.01 (August 2012)
-- Site URI: http://sylvainlafitte.com/designa/
-- Author: Sylvain Lafitte
-- Author URI: http://sylvainlafitte.com
+- Site Name: Active Bean Coders
+- Version: 1.00 (May 2014)
+- Site URI: http://activebeancoders.com
+- Author: Ken Christie
 
 - Resources:
 	HTML5 Boilerplate (http://html5boilerplate.com/),
 	Normalise.css (http://necolas.github.com/normalize.css/), 
 	Proportional grids by Boon (http://builtbyboon.com),
-	CSS Tricks (css-tricks.com).
+	CSS Tricks (css-tricks.com),
+	Design by DESIGNA Studio (http://sylvainlafitte.com).
 ------------------------------------------------------------- */
 
 
@@ -345,16 +345,16 @@ html[xmlns] .slides {display: block;}
 .flex-prev:hover, .flex-next:hover{ color: #0078CF}
 
 
-/* -- WORKS / Home-page and Works-page
+/* -- projects / Home-page and projects-page
 ------------------------------------------------------------- */
-.works figure > a{ 
+.projects figure > a{ 
 	display: block; 
 	height: 100%; width: 100%; 
 	overflow: hidden; 
 	position: relative;
 	border-top: 1px solid #DDD; padding-top: 1em; }
  	
-.works figure .zoom{ 
+.projects figure .zoom{ 
 	display: block; 
 	position: absolute; top: 10px; left: 0; 
 	background: url(../img/zoom.png) no-repeat center; 
@@ -364,11 +364,11 @@ html[xmlns] .slides {display: block;}
 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 0);
 	filter: alpha(opacity = 0); }
 
-.works figure figcaption{ margin-top: 1em; padding: 0 0.5em; white-space: nowrap; }
-.works figure figcaption a{line-height:2em; color: #555; font-weight: 700; }
-.works figure figcaption p{ margin: 0; }
+.projects figure figcaption{ margin-top: 1em; padding: 0 0.5em; white-space: nowrap; }
+.projects figure figcaption a{line-height:2em; color: #555; font-weight: 700; }
+.projects figure figcaption p{ margin: 0; }
 
-.works-page .works figure { margin-bottom: 3em;}
+.projects-page .projects figure { margin-bottom: 3em;}
 
 .main aside{margin-bottom: 3em}
 .main aside menu{padding: 0 0 0 1em; line-height: 2em;}
@@ -382,9 +382,9 @@ html[xmlns] .slides {display: block;}
 .main:not(.home-page) > section article h2 { margin-top: 1em; padding-top: 1em; border-top: 1px solid #DDD; }
 .main:not(.home-page) > section article:first-child h2 { margin-top: 0;}
 
-/* Work-page (single) */
-.work-page figure {margin-bottom: 3em;}
-.work-page figcaption {text-align: center; margin-top: 1em;}
+/* Project-page (single) */
+.project-page figure {margin-bottom: 3em;}
+.project-page figcaption {text-align: center; margin-top: 1em;}
 
 /* Services-page */
 .warning { 
@@ -515,7 +515,7 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
 /* -------------------------------------------------------------
 ======	IE Fix
 ------------------------------------------------------------- */
-.lt-ie9 .works figure a, .lt-ie9 .works figure a img { filter:inherit} 
+.lt-ie9 .projects figure a, .lt-ie9 .projects figure a img { filter:inherit} 
 /* jquery filter opacity issue IE8 */
 
 .lt-ie9 .container {min-width: 780px;}
@@ -537,6 +537,10 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
 /* -------------------------------------------------------------
 ======	MEDIA QUERIES
 ------------------------------------------------------------- */
+animate: {}
+a:hover { color: #000; text-decoration: underline; background: rgba(0, 0, 0, .025);} 
+
+
 
 /* -- Media query 1 (mq1)
 ------------------------------------------------------------- */

@@ -69,27 +69,27 @@ $(document).ready(function() {
 
 // PORTFOLIO sorting	
 	// NAV 
-	$('.works-page aside menu a').click(function(){
+	$('.projects-page aside menu a').click(function(){
 		$(this).addClass("buttonactive").siblings().removeClass("buttonactive")
 	});
 	// SELECTION
-	$("#work_1").click(function() {
-	  $(".works figure").not(".work_1").stop().fadeTo("normal",0.1);
-	  $(".work_1").stop().fadeTo("normal",1);
+	$("#project_1").click(function() {
+	  $(".projects figure").not(".project_1").stop().fadeTo("normal",0.1);
+	  $(".project_1").stop().fadeTo("normal",1);
 	});
 	
-	$("#work_2").click(function() {
-	  $(".works figure").not(".work_2").stop().fadeTo("normal",0.1);
-	  $(".work_2").stop().fadeTo("normal",1);
+	$("#project_2").click(function() {
+	  $(".projects figure").not(".project_2").stop().fadeTo("normal",0.1);
+	  $(".project_2").stop().fadeTo("normal",1);
 	});
 	
-	$("#work_3").click(function() {
-	  $(".works figure").not(".work_3").stop().fadeTo("normal",0.1);
-	  $(".work_3").stop().fadeTo("normal",1);
+	$("#project_3").click(function() {
+	  $(".projects figure").not(".project_3").stop().fadeTo("normal",0.1);
+	  $(".project_3").stop().fadeTo("normal",1);
 	});
 	
-	$("#work_all").click(function() {
-	  $(".works figure").stop().fadeTo("normal",1);
+	$("#project_all").click(function() {
+	  $(".projects figure").stop().fadeTo("normal",1);
 	});
 
 
