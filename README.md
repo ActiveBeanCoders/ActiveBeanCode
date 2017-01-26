@@ -11,3 +11,4 @@
 * `/etc/apache2/apache2.conf`
 * `/etc/tomcat7/tomcat-users.xml`
 * `/usr/share/phpmyadmin/.htaccess`
+* `/var/log/tomcat7/catalina.out`
